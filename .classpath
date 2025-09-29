@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="basics/src/main/java"/>
+	<classpathentry kind="src" path="basics/src/test/java"/>
+	<classpathentry kind="src" path="carfactory/src/main/java"/>
+	<classpathentry kind="src" path="chess/src/main/java"/>
+	<classpathentry kind="src" path="chess/src/test/java"/>
+	<classpathentry kind="src" path="designpatterns/src/main/java"/>
+	<classpathentry kind="src" path="exercises/hangman/src/main/java"/>
+	<classpathentry kind="src" path="exercises/hearts/src/main/java"/>
+	<classpathentry kind="src" path="mario/src/main/java"/>
+	<classpathentry kind="src" path="mario/src/test/java"/>
+	<classpathentry kind="src" path="solid/src/main/java"/>
+	<classpathentry kind="src" path="traffic/src/main/java"/>
+	<classpathentry kind="src" path="traffic/src/test/java"/>
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
