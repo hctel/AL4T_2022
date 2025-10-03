@@ -10,3 +10,24 @@
 # Ignore Gradle build output directory
 build
 /bin/
+.settings/org.eclipse.buildship.core.prefs
+basics/.classpath
+basics/.settings/org.eclipse.jdt.core.prefs
+carfactory/.settings/org.eclipse.buildship.core.prefs
+chess/.settings/org.eclipse.buildship.core.prefs
+designpatterns/.settings/org.eclipse.buildship.core.prefs
+exercises/.settings/org.eclipse.buildship.core.prefs
+exercises/hangman/.settings/org.eclipse.buildship.core.prefs
+exercises/hearts/.settings/org.eclipse.buildship.core.prefs
+exercises/hearts/bin/main/be/ecam/Controller/Main.class
+exercises/hearts/bin/main/be/ecam/Model/Suit.class
+mario/.settings/org.eclipse.buildship.core.prefs
+solid/.settings/org.eclipse.buildship.core.prefs
+traffic/.settings/org.eclipse.buildship.core.prefs
+/carfactory/bin
+/chess/bin
+/designpatterns/bin
+/exercises/hangman/bin
+/mario/bin
+/solid/bin
+/traffic/bin
