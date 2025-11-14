@@ -14,6 +14,13 @@ class CalculatorTest {
     }
 
     @Test
+    void add_overflow() {
+        Calculator calculator = new Calculator();
+        int result = calculator.add(Integer.MAX_VALUE, 1);
+        assertEquals(Integer.MIN_VALUE, result);
+    }
+
+    @Test
     void subtract() {
         Calculator calculator = new Calculator();
         int result = calculator.subtract(1, 2);
@@ -33,4 +40,11 @@ class CalculatorTest {
         int result = calculator.divide(15, 3);
         assertEquals(5, result);
     }
+
+    @Test
+    void divide_by_zero() {
+        Calculator calculator = new Calculator();
+        assertThrows(ArithmeticException.class, () -> calculator.divide(15, 0));
+    }
+
 }
