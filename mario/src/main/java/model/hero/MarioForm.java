@@ -1,7 +1,6 @@
 package model.hero;
 
 import view.Animation;
-import view.ImageLoader;
 import view.IImageLoader;
 
 import java.awt.image.BufferedImage;
