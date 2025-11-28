@@ -1,4 +1,4 @@
-package be.ecam.pattern.concurrency;
+package be.ecam.pattern.concurrency.bugs;
 
 public class ImproperSynchronization {
     private static int sharedValue = 0;

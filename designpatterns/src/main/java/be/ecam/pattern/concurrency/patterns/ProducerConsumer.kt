@@ -1,4 +1,4 @@
-package be.ecam.pattern.concurrency
+package be.ecam.pattern.concurrency.patterns
 
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.Channel
