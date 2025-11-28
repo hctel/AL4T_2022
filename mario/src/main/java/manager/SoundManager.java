@@ -54,7 +54,8 @@ public class SoundManager implements ISoundManager {
         if (background == null || exclusivePlaying)
             return;
         background.setMicrosecondPosition(clipTime);
-        background.start();
+        // Loop music track, so game music doesn't stop
+        background.loop(Clip.LOOP_CONTINUOUSLY);
     }
 
     @Override
