@@ -1,7 +1,7 @@
-package be.ecam.pattern.concurrency;
+package be.ecam.pattern.concurrency.bugs;
 
 public class InfiniteLoop {
-    private volatile boolean flag = false; // try to delete it
+    private volatile boolean flag = false; // try to delete the volatile keyword
 
     public void setFlag() {
         flag = true;

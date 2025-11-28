@@ -1,4 +1,4 @@
-package be.ecam.pattern.concurrency;
+package be.ecam.pattern.concurrency.patterns;
 
 public class ThreadJoinExample {
     private static int result = 0;

@@ -1,4 +1,4 @@
-package be.ecam.pattern.concurrency;
+package be.ecam.pattern.concurrency.bugs;
 
 import java.util.ArrayList;
 import java.util.List;

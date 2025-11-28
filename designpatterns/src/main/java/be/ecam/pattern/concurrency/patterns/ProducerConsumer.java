@@ -1,4 +1,4 @@
-package be.ecam.pattern.concurrency;
+package be.ecam.pattern.concurrency.patterns;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
