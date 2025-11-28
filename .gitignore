@@ -31,3 +31,14 @@ traffic/.settings/org.eclipse.buildship.core.prefs
 /mario/bin
 /solid/bin
 /traffic/bin
+.project
+*.prefs
+carfactory/.classpath
+chess/.classpath
+designpatterns/.classpath
+exercises/hangman/.classpath
+exercises/hearts/.classpath
+mario/.classpath
+solid/.classpath
+testing/.classpath
+traffic/.classpath
