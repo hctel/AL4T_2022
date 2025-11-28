@@ -9,7 +9,6 @@
 
 # Ignore Gradle build output directory
 build
-<<<<<<< HEAD
 /bin/
 .settings/org.eclipse.buildship.core.prefs
 basics/.classpath
@@ -32,5 +31,3 @@ traffic/.settings/org.eclipse.buildship.core.prefs
 /mario/bin
 /solid/bin
 /traffic/bin
-=======
->>>>>>> parent of 7f95eff (Update)

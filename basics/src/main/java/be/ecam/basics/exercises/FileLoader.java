@@ -7,16 +7,16 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 public class FileLoader {
-    public static String firstLine(Path path) throws IOException {
+    public static String firstLine(Path path) {
         BufferedReader br = null;
         try {
             br = Files.newBufferedReader(path, StandardCharsets.UTF_8);
             return br.readLine();
         } catch (IOException e) {
-            throw new IOException("I/O Error!");
+            return null;
         } finally {
             if (br != null) {
-                try { br.close(); } catch (IOException ignored) { throw new IOException("File not found!"); }
+                try { br.close(); } catch (IOException ignored) { }
             }
         }
     }

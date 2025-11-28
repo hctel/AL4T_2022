@@ -11,7 +11,7 @@ public class Inventory {
 
     public static boolean hasSku(List<Item> items, String sku) {
         for (Item i : items) {
-            if (i.getSku().equals(sku)) {
+            if (i.getSku() == sku) {
                 return true;
             }
         }

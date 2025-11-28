@@ -3,29 +3,29 @@ package be.ecam.basics.exercises;
 import java.util.Objects;
 
 public class Account {
-    private long balance;
+    private double balance;
 
     public Account() {
-        this(0);
+        this(0.0);
     }
 
     public Account(double initial) {
-        this.balance = Math.round(initial*100);
+        this.balance = initial;
     }
 
     public double getBalance() {
-        return balance/100.0;
+        return balance;
     }
 
     public void deposit(double amount) {
         if (amount < 0) throw new IllegalArgumentException("amount");
-        balance += Math.round(amount*100);
+        balance += amount;
     }
 
     public void withdraw(double amount) {
         if (amount < 0) throw new IllegalArgumentException("amount");
-        if (Math.round(amount*100) > balance) throw new IllegalStateException("insufficient");
-        balance -= Math.round(amount*100);
+        if (amount > balance) throw new IllegalStateException("insufficient");
+        balance -= amount;
     }
 
     public void transferTo(Account other, double amount) {
