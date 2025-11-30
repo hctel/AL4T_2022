@@ -44,3 +44,7 @@ testing/.classpath
 traffic/.classpath
 *.class
 testing/bin/test/addition.csv
+basics/bin/build.gradle
+exercises/hearts/bin/build.gradle
+testing/bin/build.gradle.kts
+testing/bin/src/test/resources/addition.csv
